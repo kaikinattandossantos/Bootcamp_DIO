@@ -18,7 +18,7 @@ public class Main {
         
         // Verifica se o parcelamento é possível
         if (valorParcela >= 1) {
-            System.out.println("Parcela: " + valorParcela); // Exibe o valor da parcela
+            System.out.printf("Parcela: %.2f%n", valorParcela); // Exibe o valor da parcela
         } else {
             System.out.println("Parcelamento nao e possivel");
         }
